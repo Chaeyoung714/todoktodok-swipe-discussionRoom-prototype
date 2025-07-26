@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://chaeyoung714.github.io/todoktodok-swipe-discussionRoom-prototype",
+  "homepage": "https://chaeyoung714.github.io/todoktodok-swipe-discussionRoom-prototype/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
