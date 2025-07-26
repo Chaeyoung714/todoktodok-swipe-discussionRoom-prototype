@@ -71,6 +71,138 @@ export const mockOpinions: Opinion[] = [
     timestamp: "10분 전",
     likes: 9,
     replies: 2
+  },
+  // 새로운 토론 예시 1
+  {
+    id: "6",
+    author: {
+      name: "한지민",
+      avatar: "",
+      role: "Frontend Developer"
+    },
+    content: "TypeScript를 도입한 이후로 코드의 안정성이 크게 향상되었습니다. 특히 대규모 프로젝트에서 타입 시스템의 이점이 확실히 느껴집니다.",
+    topic: "TypeScript 도입 효과와 단점",
+    tags: ["TypeScript", "Frontend", "TypeSafety"],
+    timestamp: "3시간 전",
+    isCreator: true,
+    likes: 20,
+    replies: 6
+  },
+  {
+    id: "7",
+    author: {
+      name: "오세훈",
+      avatar: "",
+      role: "Backend Developer"
+    },
+    content: "런타임 에러가 줄어든 것은 좋지만, 타입 선언에 드는 시간이 생각보다 많아 생산성이 떨어질 때도 있습니다.",
+    topic: "TypeScript 도입 효과와 단점",
+    tags: ["TypeScript", "Productivity"],
+    timestamp: "2시간 전",
+    likes: 11,
+    replies: 2
+  },
+  {
+    id: "8",
+    author: {
+      name: "이서연",
+      avatar: "",
+      role: "Full Stack Developer"
+    },
+    content: "초기 학습 곡선이 있지만, 팀 전체의 코드 품질이 올라가서 장기적으로는 이득이라고 생각합니다.",
+    topic: "TypeScript 도입 효과와 단점",
+    tags: ["TypeScript", "TeamWork"],
+    timestamp: "1시간 전",
+    likes: 8,
+    replies: 1
+  },
+  // 새로운 토론 예시 2
+  {
+    id: "9",
+    author: {
+      name: "박성민",
+      avatar: "",
+      role: "AI Researcher"
+    },
+    content: "ChatGPT와 같은 대형 언어 모델이 개발 생산성에 미치는 영향은 앞으로 더 커질 것 같습니다. 코드 리뷰나 문서화 자동화에 특히 기대가 큽니다.",
+    topic: "AI 도구의 개발 생산성 영향",
+    tags: ["AI", "Productivity", "LLM"],
+    timestamp: "4시간 전",
+    isCreator: true,
+    likes: 17,
+    replies: 4
+  },
+  {
+    id: "10",
+    author: {
+      name: "최유진",
+      avatar: "",
+      role: "Frontend Developer"
+    },
+    content: "AI가 코드를 자동으로 생성해주긴 하지만, 아직은 사람이 직접 검토해야 할 부분이 많다고 생각해요.",
+    topic: "AI 도구의 개발 생산성 영향",
+    tags: ["AI", "CodeReview"],
+    timestamp: "3시간 전",
+    likes: 10,
+    replies: 2
+  },
+  {
+    id: "11",
+    author: {
+      name: "정지훈",
+      avatar: "",
+      role: "DevOps Engineer"
+    },
+    content: "AI가 배포 자동화나 모니터링에도 활용될 수 있을지 궁금합니다. 실제로 적용해본 사례가 있으면 공유해주세요!",
+    topic: "AI 도구의 개발 생산성 영향",
+    tags: ["AI", "DevOps"],
+    timestamp: "2시간 전",
+    likes: 7,
+    replies: 1
+  },
+  // 새로운 토론 예시 3
+  {
+    id: "12",
+    author: {
+      name: "김수현",
+      avatar: "",
+      role: "Product Manager"
+    },
+    content: "원격 근무가 일상화되면서 협업 방식에도 많은 변화가 생겼습니다. 온라인 협업 툴의 중요성이 커진 것 같아요.",
+    topic: "원격 근무와 협업 문화의 변화",
+    tags: ["RemoteWork", "Collaboration", "Culture"],
+    timestamp: "5시간 전",
+    isCreator: true,
+    likes: 13,
+    replies: 3
+  },
+  {
+    id: "13",
+    author: {
+      name: "이정훈",
+      avatar: "",
+      role: "Full Stack Developer"
+    },
+    content: "화상 회의가 많아지면서 오히려 피로도가 높아진다는 의견도 있습니다. 균형 잡힌 협업 방식이 필요해 보여요.",
+    topic: "원격 근무와 협업 문화의 변화",
+    tags: ["RemoteWork", "Meeting"],
+    timestamp: "4시간 전",
+    likes: 6,
+    replies: 1
+  },
+  {
+    id: "14",
+    author: {
+      name: "박지수",
+      avatar: "",
+      role: "Designer"
+    },
+    content: "디자인 협업도 온라인 툴로 충분히 가능해졌지만, 가끔은 오프라인에서 직접 소통하는 게 더 효율적일 때도 있어요.",
+    topic: "원격 근무와 협업 문화의 변화",
+    tags: ["RemoteWork", "Design"],
+    timestamp: "3시간 전",
+    likes: 5,
+    replies: 1
   }
 ];
 
